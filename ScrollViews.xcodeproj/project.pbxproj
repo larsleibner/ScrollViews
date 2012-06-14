@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B74B6CD9157E1A8A00E537D7 /* ScrollView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74B6CD8157E1A8A00E537D7 /* ScrollView_iPad.xib */; };
+		B74B6CEC157E660C00E537D7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74B6CEB157E660C00E537D7 /* QuartzCore.framework */; };
+		B75CBF061581560F007CDC7D /* ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CBF071581560F007CDC7D /* ScrollView.m */; };
+		B75CBF091581562B007CDC7D /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CBF0A1581562B007CDC7D /* ScrollViewController.m */; };
+		B75DDE691577D2BA002FA5FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75DDE681577D2BA002FA5FB /* UIKit.framework */; };
+		B75DDE6B1577D2BA002FA5FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75DDE6A1577D2BA002FA5FB /* Foundation.framework */; };
+		B75DDE6D1577D2BA002FA5FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75DDE6C1577D2BA002FA5FB /* CoreGraphics.framework */; };
+		B75DDE731577D2BA002FA5FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B75DDE711577D2BA002FA5FB /* InfoPlist.strings */; };
+		B75DDE751577D2BA002FA5FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B75DDE741577D2BA002FA5FB /* main.m */; };
+		B75DDE791577D2BA002FA5FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B75DDE781577D2BA002FA5FB /* AppDelegate.m */; };
+		B766A1DC157E829200075EE8 /* ScrollView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B766A1DD157E829200075EE8 /* ScrollView_iPhone.xib */; };
+		B766A1DF157E829C00075EE8 /* ScrollViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B766A1E0157E829C00075EE8 /* ScrollViewController_iPad.xib */; };
+		B766A1E1157E82A600075EE8 /* ScrollViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B766A1E2157E82A600075EE8 /* ScrollViewController_iPhone.xib */; };
+		B7F0E7B3158297D1008A3CA2 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0E7B1158297D1008A3CA2 /* ButtonViewController.m */; };
+		B7F0E7B4158297D1008A3CA2 /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7F0E7B2158297D1008A3CA2 /* ButtonViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B74B6CD8157E1A8A00E537D7 /* ScrollView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollView_iPad.xib; sourceTree = "<group>"; };
+		B74B6CE7157E48D800E537D7 /* ScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollView.h; sourceTree = "<group>"; };
+		B74B6CEB157E660C00E537D7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B75CBF071581560F007CDC7D /* ScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollView.m; sourceTree = "<group>"; };
+		B75CBF0A1581562B007CDC7D /* ScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		B75DDE641577D2BA002FA5FB /* ScrollViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75DDE681577D2BA002FA5FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B75DDE6A1577D2BA002FA5FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B75DDE6C1577D2BA002FA5FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B75DDE701577D2BA002FA5FB /* ScrollViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViews-Info.plist"; sourceTree = "<group>"; };
+		B75DDE721577D2BA002FA5FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B75DDE741577D2BA002FA5FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B75DDE761577D2BA002FA5FB /* ScrollViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollViews-Prefix.pch"; sourceTree = "<group>"; };
+		B75DDE771577D2BA002FA5FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B75DDE781577D2BA002FA5FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B75DDE7A1577D2BA002FA5FB /* ScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		B766A1DD157E829200075EE8 /* ScrollView_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollView_iPhone.xib; sourceTree = "<group>"; };
+		B766A1E0157E829C00075EE8 /* ScrollViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewController_iPad.xib; sourceTree = "<group>"; };
+		B766A1E2157E82A600075EE8 /* ScrollViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewController_iPhone.xib; sourceTree = "<group>"; };
+		B7F0E7B0158297D1008A3CA2 /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		B7F0E7B1158297D1008A3CA2 /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		B7F0E7B2158297D1008A3CA2 /* ButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B75DDE611577D2BA002FA5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74B6CEC157E660C00E537D7 /* QuartzCore.framework in Frameworks */,
+				B75DDE691577D2BA002FA5FB /* UIKit.framework in Frameworks */,
+				B75DDE6B1577D2BA002FA5FB /* Foundation.framework in Frameworks */,
+				B75DDE6D1577D2BA002FA5FB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B75DDE591577D2B9002FA5FB = {
+			isa = PBXGroup;
+			children = (
+				B7F0E7AE1582942E008A3CA2 /* ScrollableViews */,
+				B75DDE6E1577D2BA002FA5FB /* ScrollViews */,
+				B75DDE671577D2BA002FA5FB /* Frameworks */,
+				B75DDE651577D2BA002FA5FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B75DDE651577D2BA002FA5FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B75DDE641577D2BA002FA5FB /* ScrollViews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B75DDE671577D2BA002FA5FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B74B6CEB157E660C00E537D7 /* QuartzCore.framework */,
+				B75DDE681577D2BA002FA5FB /* UIKit.framework */,
+				B75DDE6A1577D2BA002FA5FB /* Foundation.framework */,
+				B75DDE6C1577D2BA002FA5FB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B75DDE6E1577D2BA002FA5FB /* ScrollViews */ = {
+			isa = PBXGroup;
+			children = (
+				B75DDE771577D2BA002FA5FB /* AppDelegate.h */,
+				B75DDE781577D2BA002FA5FB /* AppDelegate.m */,
+				B74B6CE7157E48D800E537D7 /* ScrollView.h */,
+				B75CBF071581560F007CDC7D /* ScrollView.m */,
+				B75DDE7A1577D2BA002FA5FB /* ScrollViewController.h */,
+				B75CBF0A1581562B007CDC7D /* ScrollViewController.m */,
+				B766A1E2157E82A600075EE8 /* ScrollViewController_iPhone.xib */,
+				B766A1E0157E829C00075EE8 /* ScrollViewController_iPad.xib */,
+				B766A1DD157E829200075EE8 /* ScrollView_iPhone.xib */,
+				B74B6CD8157E1A8A00E537D7 /* ScrollView_iPad.xib */,
+				B75DDE6F1577D2BA002FA5FB /* Supporting Files */,
+			);
+			path = ScrollViews;
+			sourceTree = "<group>";
+		};
+		B75DDE6F1577D2BA002FA5FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B75DDE701577D2BA002FA5FB /* ScrollViews-Info.plist */,
+				B75DDE711577D2BA002FA5FB /* InfoPlist.strings */,
+				B75DDE741577D2BA002FA5FB /* main.m */,
+				B75DDE761577D2BA002FA5FB /* ScrollViews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7F0E7AE1582942E008A3CA2 /* ScrollableViews */ = {
+			isa = PBXGroup;
+			children = (
+				B7F0E7B0158297D1008A3CA2 /* ButtonViewController.h */,
+				B7F0E7B1158297D1008A3CA2 /* ButtonViewController.m */,
+				B7F0E7B2158297D1008A3CA2 /* ButtonViewController.xib */,
+			);
+			name = ScrollableViews;
+			path = ScrollViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B75DDE631577D2BA002FA5FB /* ScrollViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75DDE851577D2BA002FA5FB /* Build configuration list for PBXNativeTarget "ScrollViews" */;
+			buildPhases = (
+				B75DDE601577D2BA002FA5FB /* Sources */,
+				B75DDE611577D2BA002FA5FB /* Frameworks */,
+				B75DDE621577D2BA002FA5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollViews;
+			productName = ScrollViews;
+			productReference = B75DDE641577D2BA002FA5FB /* ScrollViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B75DDE5B1577D2B9002FA5FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B75DDE5E1577D2B9002FA5FB /* Build configuration list for PBXProject "ScrollViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B75DDE591577D2B9002FA5FB;
+			productRefGroup = B75DDE651577D2BA002FA5FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B75DDE631577D2BA002FA5FB /* ScrollViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B75DDE621577D2BA002FA5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75DDE731577D2BA002FA5FB /* InfoPlist.strings in Resources */,
+				B766A1E1157E82A600075EE8 /* ScrollViewController_iPhone.xib in Resources */,
+				B766A1DF157E829C00075EE8 /* ScrollViewController_iPad.xib in Resources */,
+				B766A1DC157E829200075EE8 /* ScrollView_iPhone.xib in Resources */,
+				B74B6CD9157E1A8A00E537D7 /* ScrollView_iPad.xib in Resources */,
+				B7F0E7B4158297D1008A3CA2 /* ButtonViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B75DDE601577D2BA002FA5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75DDE751577D2BA002FA5FB /* main.m in Sources */,
+				B75DDE791577D2BA002FA5FB /* AppDelegate.m in Sources */,
+				B75CBF091581562B007CDC7D /* ScrollViewController.m in Sources */,
+				B75CBF061581560F007CDC7D /* ScrollView.m in Sources */,
+				B7F0E7B3158297D1008A3CA2 /* ButtonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B75DDE711577D2BA002FA5FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B75DDE721577D2BA002FA5FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B75DDE831577D2BA002FA5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B75DDE841577D2BA002FA5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B75DDE861577D2BA002FA5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollViews/ScrollViews-Prefix.pch";
+				INFOPLIST_FILE = "ScrollViews/ScrollViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B75DDE871577D2BA002FA5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollViews/ScrollViews-Prefix.pch";
+				INFOPLIST_FILE = "ScrollViews/ScrollViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B75DDE5E1577D2B9002FA5FB /* Build configuration list for PBXProject "ScrollViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75DDE831577D2BA002FA5FB /* Debug */,
+				B75DDE841577D2BA002FA5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75DDE851577D2BA002FA5FB /* Build configuration list for PBXNativeTarget "ScrollViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75DDE861577D2BA002FA5FB /* Debug */,
+				B75DDE871577D2BA002FA5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B75DDE5B1577D2B9002FA5FB /* Project object */;
+}
